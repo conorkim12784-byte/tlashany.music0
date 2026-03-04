@@ -23,7 +23,7 @@ from pytgcalls.exceptions import (AlreadyJoinedError,
 from pytgcalls.types import (JoinedGroupCallParticipant,
                              LeftGroupCallParticipant, Update)
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from pytgcalls.types.stream import StreamAudioEnded
+from pytgcalls.types.input_stream import AudioPiped as StreamAudioEnded
 
 import config
 from strings import get_string

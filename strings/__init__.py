@@ -60,4 +60,4 @@ for filename in os.listdir(r"./strings/langs/"):
         print(
             "There is some issue with the language file inside bot. Please report it to the TeamYukki at @YukkiSupport on Telegram"
         )
-        sys.exit()
+        pass
